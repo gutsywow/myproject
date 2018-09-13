@@ -1,0 +1,633 @@
+* {
+		margin: 0;
+		padding: 0;
+     }
+     @font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?a5jl7a');
+  src:  url('../fonts/icomoon.eot?a5jl7a#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?a5jl7a') format('truetype'),
+    url('fonts/icomoon.woff?a5jl7a') format('woff'),
+    url('fonts/icomoon.svg?a5jl7a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+	.w {
+		width: 1180px;
+		margin: 0 auto;
+	}
+	ul {
+		list-style: none;
+	}
+	h2 {
+		font-weight: normal;
+		margin:30px 36px 0 30px;
+	}
+	a {
+		text-decoration: none;	
+	}
+	body {
+		background-color: #F2F3F5;
+	}
+
+
+
+
+
+  
+
+	/*top开始部分*/
+
+	.top {
+		width: 100%;
+		height: 58px;
+		background-color: #444C57;
+	}
+	.top ul {
+		height: 100%;
+		list-style: circle;
+		margin-left: 170px;
+	}
+	.top li {
+		display: inline-block;
+		list-style: circle;
+	}
+	.top li a {
+		display: inline-block;
+		color: #C5C8D1;
+		padding: 16px ;
+		text-decoration: none;
+		font-size: 14px;
+	}
+	
+	.top li a:hover {
+		color: #28B7A3;
+	}
+	
+	 .onem {
+	 	position: relative;
+	 }
+	 .more {
+	 	width: 163px;
+	 	height: 228px;
+	 	border:1px solid #E8E9EB;
+	 	position: absolute;
+	 	left:0;
+	 	top: 58px;
+	 	display: none;
+	 }
+	 .onem:hover .more {
+	 	display: block;
+	 }
+	 .mor li {
+	 	display: inline-block;
+	 }
+	 .more a{
+	 	display: inline-block;
+
+	 }
+
+
+
+	/*top结束部分*/
+
+	/*search部分开始*/
+	.box {
+		width: 100%;
+		height: 129px;
+		background-color: #fff;
+	
+	}
+
+	.search {
+		height: 129px;
+		background-color: #abc;
+		
+		
+	}
+	.logo {
+		width: 162px;
+		height: 50px;
+		background-image: url(../img/logo.png);
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		margin:16px 22px 19px  190px;
+		display: inline-block;
+		float: left;
+
+		
+	}
+
+	 input:first-of-type{
+		width: 530px;
+		height: 20px;
+		border:1px solid #E8E8E8;
+		font-family: "icomoon";
+		font-size: 16px;
+		margin-top: 20px;
+		display: inline-block;
+		padding: 10px;
+		
+	}
+	input:nth-of-type(2) {
+		width: 125px;
+		height: 40px;
+		background-color: #28B7A3;
+		color: #fff;
+		margin-left: -5px;
+		font-size: 16px;
+		text-align: center;
+		border: none;
+		
+		
+		}
+
+/*search部分结束*/
+
+
+	/*content部分开始*/
+	.content {
+		
+		height: 600px;
+		background-color: pink;
+		position: relative;
+
+	}
+
+	.content .left {
+		display:inline-block;
+		width: 280px;
+		height: 600px;
+		background-color: #444C57;
+		position: relative;
+		left: 0;
+		top:0;
+		
+	}
+
+	.left h3,
+	.left h4 {
+		color: white;
+		font-weight: normal;	
+	}
+
+	.left h3 {
+		margin: 24px 0 40px 30px;
+	}
+	.left h4 {
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+
+	
+	.left .aside {
+		list-style:none;
+		/*margin-bottom: 34px;*/
+	}
+	.left .aside li {
+		display: inline-block;
+		width: 277px; 
+		height:42px;
+	}
+	
+	.left li:hover {
+		background-color: #535A64;
+		border-left: 3px solid #28B7A3;
+	}
+	.left a {
+		display: inline-block;
+		color: white;
+		text-decoration: none;
+		margin-left: 66px;
+		font-size: 14px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.content .nav {
+		width: 890px;
+		height: 52px;
+		background-color: #bca;
+		float: right;
+	
+	}
+	.content .nav li{
+		
+		list-style: none;
+        display:inline-block;
+        font-size: 18px;
+        margin-right: 30px;
+        margin-left: 
+
+	}
+	.nav li a {
+		line-height: 52px;
+		
+		color: #000;
+	}
+	.nav li a:hover {
+		color: #28B7A3;
+	}
+
+
+
+
+	/*侧边栏*/
+
+
+
+	/*中间的轮播*/
+	.broadcast {
+		width: 880px;
+		height: 290px;
+		background-color: #bac;
+     	float :right;
+		margin-top:-529px;
+		position: relative;
+
+	}
+	.broadcast img {
+		width: 880px;
+		height: 290px;		
+	}
+	.broadcast section {
+		width: 10px;
+		height: 10px;
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 10px;
+
+	}
+
+	.broadcast section:first-of-type {
+		left: 420px;	
+	}
+	.broadcast section:nth-of-type(2) {
+		left: 435px;	
+	}
+
+
+	/*医师讲堂*/
+	.lecturehall {
+		width: 880px;
+		height: 220px;
+		background-color: #ccc;
+		float: right;
+		margin-top:-226px;
+
+	}
+	.lecturehall h2 {
+		margin:29px 36px 0 30px;
+
+	}
+
+	.lecturehall li {
+		display: inline-block;
+		width: 255px;
+		height: 114px;
+		/*background-color: orange;*/
+		margin-top: 37px;
+		margin-left: 30px;
+
+	} 
+
+	.lecturehall img {	
+		width: 112px;
+		height: 112px;	
+
+	}
+	.introduce {
+		display: inline-block;
+		width: 130px;
+		height: 112px;
+		background-color: lightgreen;
+		margin-left: 2px;
+			
+
+	}
+	.introduce p {
+		color: #444C57;
+
+
+	}
+	.introduce span {
+		font-size: 12px;
+		color: #828993;
+	}
+
+
+	/*content部分结束*/
+
+
+	/*recommend部份开始*/
+	.recommend {
+		height: 593px;
+		background-color: pink;
+		margin-top: 20px;
+		clear:both;
+	}
+	.recommend ul {
+		list-style: none;
+		height: 55px;
+		width: 1117px;
+		background-color: #F2F3F5;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.recommend .first {
+		
+		display: inline-block;		
+		position: relative;
+		margin-left: -5px;
+
+	}
+
+	.recommend .first a {
+		display: inline-block;
+		padding: 20px 26px;	
+		margin-left: 30px;
+		color: #444C57
+	}
+
+	.recommend .first a:hover {
+		background-color: #28B7A3;
+		color: #fff;
+
+	}
+
+	.recommend .first .triangle {
+		width: 0;
+		height: 0;
+		border: 14px solid transparent;
+		border-top-color: #28B7A3;
+		position: absolute;
+		left: 50%;		
+		bottom: -28px;
+		display: none;
+	}
+	.recommend a:hover .triangle {
+		display: block;
+	}
+	.recommend h2 {
+		display: inline-block;
+		margin-top: 30px;
+	}
+	.first ul {
+		width: 1117px;
+		height: 392px;
+		margin: 0 auto;
+		background-color: red;
+		margin-top: 28px;
+		position: relative;
+		display: none;
+
+	}
+	.first:hover .erji{
+		display: block;
+
+	}
+	.first li {
+		width: 250px;
+		height: 392px;
+		display: inline-block;		
+		position: absolute;
+		margin-left: 30px;
+		border-radius: 8px;
+	}
+	.first li:first-of-type {
+		background-color: #aaa;
+		left: 0;
+		bottom: 0;
+
+
+	}
+	.first li:nth-of-type(2) {
+		background-color: #ddd;
+		left: 255px;
+		bottom: 0;
+
+	}
+	.first li:nth-of-type(3) {
+		background-color: lightgreen;	
+		left: 510px;
+		bottom: 0;
+	} 
+	.first li:nth-of-type(4) {
+		background-color: lightblue;	
+		left: 765px;
+		bottom: 0;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*recommend部分结束*/
+
+	/*回到顶部return*/
+
+	/*.return {
+		width: 68px;
+		height: 68px;
+		background-color: red;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 118px;
+		bottom: 10px;
+
+	}*/
+
+
+	/*health部分开始*/
+	.health {
+		height: 783px;
+		background-color: #a98765;
+		margin-top: 20px;
+		position: relative;
+	}
+	.health h2 {
+		display: inline-block;
+		margin-top: 30px;
+	}
+	.h-left ul {
+		width: 173px;
+		height: 118px;
+		background-color: #abc;
+		margin-top: 20px ;
+		margin-left: 32px ;
+		
+	}
+	.h-left li {
+		width: 70px;
+		height: 17px;
+		display: inline-block;
+		margin-right: 5px;
+		
+	}
+	.h-left a {
+		text-decoration: none;
+		display: inline-block;	
+		color: #252A33;
+	}
+	.h-left a:hover {
+		color: #28B7A3;
+		text-decoration: underline;
+	}
+	.h-left span {
+		color: #8289AC;
+	}
+	.h-right {
+		display: inline-block;
+		width: 930px;
+		height: 620px;
+		background-color: #aaa;
+		position: absolute;
+		left: 220px;
+		top: 103px;	
+		column-count:2;
+		column-gap:1em;
+	}
+	.h-right ul {
+		/*list-style: */
+		margin-top:10px;
+	}
+	.h-right a {
+		text-decoration: none;
+		display: inline-block;	
+		color: #252A33;
+	}
+	.h-right a:hover {
+		color: #28B7A3;
+		text-decoration: underline;
+	}
+	.h-right .imgl {
+		width: 136px;
+		height: 116px;	
+		display: inline-block;
+	}
+	.h-right .imgr {
+		display: inline-block;
+		width: 286px;
+		height: 116px;
+		margin-left: 5px;		
+		font-size: 15px;		
+	}
+	.imgr a {
+		margin-bottom: 20px;
+	}
+	.s span {
+		color: #D0D9E7;
+	}
+
+
+
+	/*不知名*/
+	
+	/*.imgr:first-of-type {
+		left: 140px;
+		top: 0;
+		
+	}
+	 .imgr:nth-of-type(2) {
+	 	left: 140px;	
+		top: 200px;
+	}
+	.imgr:nth-of-type(3) {
+		right: 0;
+		top: 0;
+
+	}
+	.imgr:nth-of-type(4) {	
+	right: 0;
+	top: 200px;	
+
+	}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*health部分结束*/
+
+	/*treatment开始部分*/
+
+	.treatment {
+		height: 530px;
+		background-color: #ddd;
+		margin-top: 20px;
+	}
+	.treatment h2 {
+		display: inline-block;
+		margin-top: 30px;
+		
+	}
+
+
+
+
+	 /*treatment部分结束*/
+
+	 /*footer开始部分*/
+
+	 footer {
+	 	height: 190px;
+	 	background-color: #aee;
+	 }
+	 footer ul {
+	 	text-align: center;
+	 }
+	 footer li {
+	 	display: inline-block;
+
+	 }
+	 footer a {
+	 	display: inline-block;
+	 	color: #99A0AA;
+	 	text-decoration: none;
+	 	margin-top: 90px;
+	 	
+	 }
+	 footer a:hover {
+	 	color: #28B7A3;
+	 	text-decoration: underline;
+	 }
+	 footer span {
+	 	display: inline-block;
+	 	margin: 10px;
+	 }
+
+	 /*footer结束部分*/
